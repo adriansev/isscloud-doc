@@ -1,0 +1,56 @@
+site_name: ISSCloud Howto Documentation
+site_description: Documentation for usage information of ISS Cloud server
+site_author: Adrian Sevcenco
+site_url: https://isscloud.spacescience.ro/help
+
+repo_name: "isscloud-doc"
+repo_url: https://github.com/adriansev/isscloud-doc
+edit_uri: '-/edit/master/docs'
+
+plugins:
+    - search
+    - autorefs
+    - include-markdown:
+        preserve_includer_indent: false
+        dedent: false
+        trailing_newlines: true
+        comments: false
+        rewrite_relative_urls: true
+        heading_offset: 0
+        start: <!--start-->
+        end: <!--end-->
+        opening_tag: "{%"
+        closing_tag: "%}"
+
+
+markdown_extensions:
+    - admonition
+    - attr_list
+    - footnotes
+    - md_in_html
+    - pymdownx.superfences
+    - pymdownx.highlight:
+        use_pygments: true
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - tables
+    - def_list
+    - toc:
+        permalink: "#"
+
+theme:
+    name: material
+    # disable google fonts, not GPRD compliant
+    font: false
+    features:
+        - navigation.tracking
+        # - toc.integrate
+
+extra_css:
+  - stylesheets/fonts.css
+
+nav:
+    - Main: index.md
+

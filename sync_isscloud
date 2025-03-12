@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+mkdocs build
+
+/usr/bin/rsync -ahuW --delete site/ isscloud:/var/www/html/help/
+
