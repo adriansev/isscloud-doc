@@ -38,7 +38,8 @@ markdown_extensions:
     - tables
     - def_list
     - toc:
-        permalink: "#"
+        toc_depth: "1-1"
+#        permalink: "#"
 
 theme:
     name: material
@@ -50,7 +51,8 @@ theme:
 
 extra_css:
   - stylesheets/fonts.css
+  - stylesheets/extra.css
 
 nav:
-    - Main: index.md
+    - "index.md"
 
