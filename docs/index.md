@@ -25,6 +25,10 @@ Steps towards this goal:
 
 1. One needs to create a folder named PUBLIC within it's own files
 2. Go to Files and access the lower left corner item named `Files settings` and record the `WebDAV URL`
-    1. if 2FA is enabled follow the instruction
-3.  Contact the administrator with this information in order that a local mount be setup for your PUBLIC WebDAV folder.
+3. On the User settings (up-right corner) go to `Personal settings` --> then on left menu go to `Security`
+4. In the lower part in the `Devices & sessions` define a new app password
+    1. In the lowest dialogue set a app name like `WEBDAV` and click on `Create new app password`
+    2. Write down the password (*IT WILL NOT BE SHOWN AGAIN!*), then close the dialogue
+    3. Click on `***` section of this new device and make sure the `Allow filesystem access` is checked
+3. Contact the administrator with this information (WebDAV URL and password) for a local mount be setup for your PUBLIC WebDAV folder.
 
