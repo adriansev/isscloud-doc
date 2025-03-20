@@ -1,4 +1,4 @@
-site_name: ISSCloud Howto Documentation
+site_name: ISS Cloud Howto Documentation
 site_description: Documentation for usage information of ISS Cloud server
 site_author: Adrian Sevcenco
 site_url: https://isscloud.spacescience.ro/help
@@ -38,8 +38,9 @@ markdown_extensions:
     - tables
     - def_list
     - toc:
-        toc_depth: "1-1"
-#        permalink: "#"
+        permalink: "#"
+#        toc_depth: 0
+
 
 theme:
     name: material
@@ -47,7 +48,7 @@ theme:
     font: false
     features:
         - navigation.tracking
-        # - toc.integrate
+        - toc.integrate
 
 extra_css:
   - stylesheets/fonts.css
