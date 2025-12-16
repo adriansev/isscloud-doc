@@ -106,7 +106,8 @@ There are 2 main steps:
     2. if the file is smaller, there is the option of right-clicking on attachement and select `Convert to -> *cloud`
 
 
+## NextCloud Tables
 
-
-
+With this app you are able to create your own tables with individual columns. You can start with a template or from scratch and add your wanted columns.  
+See [documentation](https://github.com/nextcloud/tables/wiki)
 
