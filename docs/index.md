@@ -42,13 +42,13 @@ The [CERN official documentation](https://cern.service-now.com/service-portal?id
     On Android devices, go to "Settings" -> "System" -> Date & time" and have "Set time automatically" on ON.  
     Compare your time with this "world-time".  
 
-!!! note ""
-    Continue with [Configuring two-factor authentication](https://docs.nextcloud.com/server/latest/user_manual/en/user_2fa.html#configuring-two-factor-authentication)
+!!! note "**Follow the NextCloud documentation for 2FA configuration**"
+    **Continue with [Configuring two-factor authentication](https://docs.nextcloud.com/server/latest/user_manual/en/user_2fa.html#configuring-two-factor-authentication)**
 
-!!! note "Using client applications with two-factor authentication"
-    Once you have enabled 2FA, your clients will no longer be able to connect with just your password
-    unless they also have support for two-factor authentication. To solve this, you should generate
-    device specific passwords for them. See [Manage connected browsers and devices](https://docs.nextcloud.com/server/latest/user_manual/en/session_management.html) for more information on how to do this.
+!!! note "**Using client applications with two-factor authentication**"
+    **Once you have enabled 2FA, your clients will no longer be able to connect with just your password**  
+    unless they also have support for two-factor authentication.  
+    To solve this, you should generate device specific passwords for them. See [Manage connected browsers and devices](https://docs.nextcloud.com/server/latest/user_manual/en/session_management.html) for more information on how to do this.
 
 
 ## Creation of application password
