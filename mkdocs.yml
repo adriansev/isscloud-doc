@@ -49,11 +49,19 @@ theme:
     features:
         - navigation.tracking
         - toc.integrate
+        - navigation.sections       # renders sections as visually distinct groups
+        - navigation.indexes        # makes section index.md the section's own page
 
 extra_css:
   - stylesheets/fonts.css
   - stylesheets/extra.css
 
 nav:
-    - "index.md"
+    - "General documentation": "index.md"
+    - "Access end-points/Clients": "clients.md"
+    - "Two Factor Authentication (2FA) activation": "2fa.md"
+    - "Application password": "apppass.md"
+    - "Notable features": "features.md"
+
+
 
